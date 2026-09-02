@@ -1,6 +1,6 @@
 const WhatsAppButton = () => {
     // 📱 আপনার আসল হোয়াটসঅ্যাপ নম্বরটি এখানে দিন (কান্ট্রি কোড সহ, যেমন: 8801700000000)
-    const phoneNumber = '880314184816';
+    const phoneNumber = '8801314184816';
     const defaultMessage = encodeURIComponent('Hello! I have a query about a product on Tech Store.');
 
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${defaultMessage}`;
